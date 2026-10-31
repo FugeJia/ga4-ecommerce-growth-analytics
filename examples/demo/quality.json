@@ -1,0 +1,10 @@
+{
+  "raw_events": 16288,
+  "duplicate_normalized_rows": 0,
+  "missing_user_events": 0,
+  "missing_session_events": 0,
+  "purchase_missing_transaction": 0,
+  "purchase_orders_missing_revenue": 0,
+  "purchase_orders_negative_revenue": 0,
+  "clean_events": 16288
+}

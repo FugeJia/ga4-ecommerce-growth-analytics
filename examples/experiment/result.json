@@ -1,0 +1,18 @@
+{
+  "data_mode": "synthetic_demo",
+  "planned_n_per_arm_example": 6510,
+  "analysis": {
+    "control_n": 1000,
+    "treatment_n": 1000,
+    "control_rate": 0.2,
+    "treatment_rate": 0.225,
+    "absolute_lift": 0.024999999999999994,
+    "relative_lift": 0.12499999999999997,
+    "p_value": 0.17177159360101552,
+    "method": "pearson_chi_square",
+    "ci_low": -0.010873173186610123,
+    "ci_high": 0.060804495333326485,
+    "srm_p_value": 1.0,
+    "decision": "inconclusive"
+  }
+}
