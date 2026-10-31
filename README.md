@@ -149,7 +149,7 @@ pytest -q
 
 为保持无需账号即可复现，主看板使用 Streamlit，**未声称创建了 Tableau Public 工作簿**。生成的 `daily.csv`、`funnel.csv`、`retention.csv` 和 `rfm.csv` 可按 [Tableau 接入指南](docs/tableau.md) 建立同等分析页面。真实用户级 RFM 名单只供本地运营模拟，不应上传 Tableau Public。
 
-## 简历可用表述
+## 大致表述
 
 > **GA4 电商用户增长分析与运营看板（个人项目）**：围绕 Google GA4 公开电商样例的数据结构，设计 24 项事件追踪方案，构建 BigQuery 抽取、DuckDB SQL 指标层和 Streamlit 看板；实现有序会话漏斗、D1/D7/D30 cohort 留存、交易去重与 RFM 分层，并补充异常监控及样本量、SRM、转化检验工具；通过自动化测试、CI 和数据来源清单验证合成演示的可复现性。
 
